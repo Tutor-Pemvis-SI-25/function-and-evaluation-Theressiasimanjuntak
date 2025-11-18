@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="TLAST"/>
+        <attribute name="authors" value="LENOVO LOQ"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-11-18 09:12:44 PM"/>
+        <attribute name="created" value="TEVOT1ZPIExPUTtPTElQUDsyMDI1LTExLTE4OzA5OjEyOjIxIFBNOzI0MDI="/>
+        <attribute name="edited" value="TEVOT1ZPIExPUTtPTElQUDsyMDI1LTExLTE4OzA5OjEyOjI0IFBNOzE7TEVOT1ZPIExPUTtPTElQUDsyMDI1LTExLTE4OzA4OjEwOjE2IFBNO1RMQVNULmZwcmc7NTkwMw=="/>
+        <attribute name="edited" value="TEVOT1ZPIExPUTtPTElQUDsyMDI1LTExLTE4OzA5OjEyOjQ0IFBNOzE7MjUxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p, kmk, arahan, judul, penulisan, deadline, ket, status" type="String" array="False" size=""/>
+            <declare name="kesulitan, sisahari" type="Integer" array="False" size=""/>
+            <input variable="p"/>
+            <if expression="p=&quot;Add Task&quot;">
+                <then>
+                    <call expression="AddTask"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
