@@ -67,7 +67,6 @@ public class TLAST {
 
         hasil = jumlahTugas;
         if (jumlahTugas >= 10) {
-            System.out.println("Daftar Tugas Penuh!");
         } else {
             deskripsi[jumlahTugas] = input.nextLine();
             kodeMK[jumlahTugas] = input.nextLine();
@@ -156,3 +155,5 @@ public class TLAST {
         return String.format("%." + digits + "f", value);
     }
 }
+
+ 
